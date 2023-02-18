@@ -15,7 +15,7 @@ def clearCal():
     cal = ""
     textField.delete(1.0, "end")
 
-#function to evaluate the 
+#function to evaluate the
 def evaluateCal():
     global cal
     try:
@@ -34,6 +34,7 @@ if __name__ == '__main__':
 
     root = tk.Tk()
     root.geometry("300x275")
+    root.title("Kingali calculater")
 
     #creat text place for our  window
 
